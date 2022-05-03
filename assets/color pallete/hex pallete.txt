@@ -1,0 +1,3 @@
+pink = FF007E
+yellow = FFDF00
+orange = ffa600
