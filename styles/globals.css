@@ -5,8 +5,8 @@ body, * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-
 }
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -24,6 +24,8 @@ width: 100%;
 }
 .layout{
   padding: 10px;
+  background-color: #FFDF00;
+
 }
 
 .navbar-container{
@@ -212,7 +214,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #FF007E;
   border-radius: 15px;
   position: relative;
   height: 400px;
