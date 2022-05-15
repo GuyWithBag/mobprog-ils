@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         payment_method_types: ['card'],
         billing_address_collection: 'auto',
         shipping_options: [
-          { shipping_rate: 'shr_1KzZT7LAXPWEljHrgw8SxLHh' },
+          { shipping_rate: 'shr_1KzgGmLAXPWEljHrYYiDpGZ9' },
         ],
         line_items: req.body.map((item) => {
           const img = item.image[0].asset._ref;
@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
           return {
             price_data: { 
-              currency: 'usd',
+              currency: 'php',
               product_data: { 
                 name: item.name,
                 images: [newImage],
