@@ -26,7 +26,7 @@ const Home = ({ products, bannerData }) => (
         <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
         <div className="products-heading">
           <h2>Best Seller Products</h2>
-          <p>The best selling products of Sor'prezia</p>
+          <p>The best selling products of Sor&apos;prezia</p>
         </div>
         <div className="products-container">
           {/* Only for the name of each product */}
