@@ -3,7 +3,9 @@ import React from 'react'
 const HeaderImage = () => {
   return (
     <>
+      <div className='header-image-container'>
         <div className='header-image' />
+      </div>
     </>
   )
 }

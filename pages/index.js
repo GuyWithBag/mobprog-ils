@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner, Layout } from '../components';
+import { Product, FooterBanner, HeroBanner, HeaderImage } from '../components';
 
 // [Pages:]
 //
@@ -13,25 +13,32 @@ import { Product, FooterBanner, HeroBanner, Layout } from '../components';
 // -Business Profile
 // -Contact
 
-const Home = ({ products, bannerData }) => (
-  <Layout>
-    <div>
-      <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
-      <div className="products-heading">
-        <h2>Best Seller Products</h2>
-        <p>speaker There are many variations passages</p>
-      </div>
-      <div className="products-container">
-        {products?.map((product) => product.name)
-        }
-      </div>
-      <div className="products-container">
-        {products?.map((product) => <Product key={product._id} product={product} />)}
-      </div>
+// To do list"
+//
+// Fix the headerimage so that when you make the window smaller, it insteads zooms in
+// Add the products
+// FIx the alignments and figure out how they work from youtube
 
-      <FooterBanner footerBanner={bannerData && bannerData[0]} />
+const Home = ({ products, bannerData }) => (
+  <>
+    <HeaderImage />
+    <div className='layout-inner-contents'>
+        <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
+        <div className="products-heading">
+          <h2>Best Seller Products</h2>
+          <p>The best selling products of Sor'prezia</p>
+        </div>
+        <div className="products-container">
+          {/* Only for the name of each product */}
+          {products?.map((product) => product.name)}
+        </div>
+        <div className="products-container">
+          {products?.map((product) => <Product key={product._id} product={product} />)}
+        </div>
+
+        <FooterBanner footerBanner={bannerData && bannerData[0]} />
     </div>
-  </Layout>
+  </>
 );
 
 export const getServerSideProps = async () => {

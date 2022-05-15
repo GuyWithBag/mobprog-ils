@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'next/link';
 import { FaBars } from 'react-icons/fa'
+import { AiOutlineShopping } from 'react-icons/ai'
+import { Cart } from './';
+import { useStateContext } from '../context/StateContext';
 
 // [Pages:]
 //
@@ -13,54 +16,65 @@ import { FaBars } from 'react-icons/fa'
 // -Contact
 
 const NavBar = () => {
-  return (
-    <>
-        <div className="nav">
-            <div>
-                <Link href='/'>
-                    <a>
-                        <div className="nav-bar-logo"></div>
-                    </a>
-                </Link>
-            </div>
-            <FaBars className="fa-bars"/>
-            <div className="nav-menu">
-                <div className="nav-link">
-                    <Link href='/about' activestyle>
-                        <a>About</a>
+    const { showCart, setShowCart, totalQuantities } = useStateContext();
+    return (
+        <>
+            <div className="nav">
+                <div>
+                    <Link href='/'>
+                        <a>
+                            <div className="nav-bar-logo"></div>
+                        </a>
                     </Link>
                 </div>
-                <div className="nav-link">
-                    <Link className="nav-link" href='/services' activestyle>
-                        <a>Services</a>
-                    </Link>
+                <FaBars className="fa-bars"/>
+                <div className="nav-menu">
+                    <div className="nav-link">
+                        <Link href='/' activestyle>
+                            <a>Home</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link href='/about' activestyle>
+                            <a>About</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link className="nav-link" href='/services' activestyle>
+                            <a>Services</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link className="nav-link" href='/delivery' activeStyle>
+                            <a>Delivery</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link className="nav-link" href='/customer-service' activeStyle>
+                            <a>Customer Service</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link className="nav-link" href='/business-profile' activeStyle>
+                            <a>Business Profile</a>
+                        </Link>
+                    </div>
+                    <div className="nav-link">
+                        <Link className="nav-link" href='/contact' activeStyle>
+                            <a>Contact</a>
+                        </Link>
+                    </div>
                 </div>
-                <div className="nav-link">
-                    <Link className="nav-link" href='/contact-us' activeStyle>
-                        <a>Delivery</a>
-                    </Link>
+                <div className="nav-btn">
+                    <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+                        <AiOutlineShopping />
+                        <span className="cart-item-qty">{totalQuantities}</span>
+                    </button>
                 </div>
-                <div className="nav-link">
-                    <Link className="nav-link" href='/sign-up' activeStyle>
-                        <a>Customer Service</a>
-                    </Link>
-                </div>
-                <div className="nav-link">
-                    <Link className="nav-link" href='/sign-up' activeStyle>
-                        <a>Business Profile</a>
-                    </Link>
-                </div>
-                <div className="nav-link">
-                    <Link className="nav-link" href='/sign-up' activeStyle>
-                        <a>Contacte</a>
-                    </Link>
-                </div>
-            </div>
-            <div className="nav-btn">
 
+                {showCart && <Cart />}
             </div>
-        </div>
-    </>
+        </>
   )
 }
 

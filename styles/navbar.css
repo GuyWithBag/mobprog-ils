@@ -37,7 +37,7 @@
 
 .fa-bars {
   display: none;
-  color: rgb(255, 255, 255);
+  color: #FF007E;
 }
 
 .nav-menu {
@@ -84,9 +84,9 @@
     .fa-bars {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
-        transform: trans late(-100, 75%);
+        top: 26px;
+        right: 15px;
+        transform: translate(-100, 75%);
         font-size: 1.8rem;
         cursor: pointer;
     }
