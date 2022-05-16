@@ -5,7 +5,7 @@ import { Layout, Navbar } from '../components';
 import '../styles/globals.css';
 import '../styles/navbar.css';
 import { StateContext } from '../context/StateContext';
-import '../styles/aout.css' ;
+import '../styles/about.css' ;
 
 function MyApp({ Component, pageProps }) {
   return (
