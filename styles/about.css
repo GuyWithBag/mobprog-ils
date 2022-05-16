@@ -7,7 +7,7 @@
     outline: dashed 1px black;
   }
   
-  p {
+  .p {
     text-align: justify;
     text-justify: inter-word;
   }
