@@ -1,4 +1,4 @@
-  .container {
+  .about-container {
     font-family: arial;
     font-size: 14px;
     margin: 25px;
@@ -7,7 +7,7 @@
     outline: dashed 1px rgb(204, 14, 93);
   }
   
-  .p {
+  .about-container p {
     text-align: justify;
      justify-content: center;
   }
