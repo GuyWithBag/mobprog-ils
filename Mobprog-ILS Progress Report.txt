@@ -1,0 +1,19 @@
+Website deployed link:
+https://mobprog-ils.vercel.app/
+
+Sanity/Databse Manage (Inaccesible if you are not a collaborator)
+https://mobprog-ils.sanity.studio/desk/product;83b8632c-4c0e-423a-9304-57ce63991b63
+
+Note: Layout in Mobile devices do not work well yet, so best opened in desktop.
+
+The designs/css is still work in progress (Have not fixed why the logo won't appear). Other pages also do not exist yet. 
+
+When you make the browser window thinner, the navbar is replaced with the 3 lines that will soon allow you to navigate with a sidebar instead.
+
+Shopping cart and paying with stripe are fully functional (Paying with Stripe is in test mode so you can input fake credentials)
+
+All of this is done in/with:
+Github
+Next.js 
+Vercel
+Sanity.io

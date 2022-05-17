@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import { FaBars } from 'react-icons/fa'
 import { AiOutlineShopping } from 'react-icons/ai'
-import { Cart } from './';
+import { Cart } from '.';
 import { useStateContext } from '../context/StateContext';
 
 // [Pages:]
@@ -15,7 +15,7 @@ import { useStateContext } from '../context/StateContext';
 // -Business Profile
 // -Contact
 
-const NavBar = () => {
+const Navbar = () => {
     const { showCart, setShowCart, totalQuantities } = useStateContext();
     return (
         <>
@@ -78,4 +78,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
