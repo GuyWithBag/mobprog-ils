@@ -10,3 +10,15 @@
     text-align: justify;
      justify-content: center;
   }
+  .vm-container {
+    font-family: arial;
+    font-size: 14px;
+    margin: 25px;
+    width: 450px;
+    height: 200px;
+  }
+  .vm-container p {
+    text-align: justify;
+    justify-content: center;
+
+  }
