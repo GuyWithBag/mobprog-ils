@@ -41,6 +41,13 @@ const contact = () => {
         <i class="fa fa-fw fa-envelope" style="width:30px"></i> Email:z@gmail.com
 </div>
 </br>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="" style="width:130%">
+  </div>
+  </div>
+</br>
 </section>
   )
 }
