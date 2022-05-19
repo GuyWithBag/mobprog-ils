@@ -14,6 +14,7 @@ const about = () => {
         </p>
         </div>
         </div>
+        </div>
         <div class="column">
           <div class="row">
           <h3> Vision and Mission</h3>
@@ -29,7 +30,6 @@ const about = () => {
         </div>
         </div>
        </div>
-      </div>
     </>
   )
 }
