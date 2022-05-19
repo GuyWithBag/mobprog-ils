@@ -4,7 +4,7 @@ const contact = () => {
   return (
     <section id="contact">
       <div className="column">
-      <h3>CONTACT htmlForM</h3>
+      <h3>CONTACT forM</h3>
       <htmlForm action="/action_page.php">
       <label htmlFor="fname">Name:</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
@@ -42,7 +42,7 @@ const contact = () => {
       <br>
         <div className="row">
           <div className="column">
-            <img src="../assets\images\flowers\Balloon hug.png" style="width:130%"/>
+            {/*<img src="../assets\images\flowers\Balloon hug.png" style="width:130%"/>*/}
           </div>
         </div>
       </br>
