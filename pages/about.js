@@ -22,11 +22,11 @@ const about = () => {
          products that would part in your surprises.Also,we
          offer free delivery in any part of Tagum City. </p>  <span className="moreText">
         <p>We also accept any specific designs that you want
-        in your products.You're loved ones will appreciate
+        in your products.You&apos;re loved ones will appreciate
         your surprise bouquet because all of our flowers are
         fresh and carefully picked by us.Our service for
         accepting orders is 24/7.</p> 
-                <div class="icons-container">
+        <div className="icons-container">
             <div className="icons">
                 <i className="fas fa-shipping-fast"></i>
                 <span>Free Delivery</span> 
