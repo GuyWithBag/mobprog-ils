@@ -13,7 +13,7 @@ const about = () => {
         </p>
         <div class="column">
           <h3> Vision & Mission</h3>
-          <div className="VM-container"> 
+          <div className="vm-container"> 
           <p>
           Celebrace hereby offers our dreariest customers the unique, best quality affordable products they deserve for their most unforgettable moments and special occasion by striving to be the best in our craft and what we do. 
           <ul>
