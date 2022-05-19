@@ -4,6 +4,7 @@ const about = () => {
   return (
     <>
       <div class="column">
+        <div class="row">
       <h3>About</h3> 
       <div className="about-container">   
         <p>
@@ -11,8 +12,11 @@ const about = () => {
           Celebrace offers you fast-affordable products with a wide range of presents and services such as Customize Bouquets, Balloon arrangements, invitations, ref magnets, etc.It also helps your family, friends, 
           and loved ones celebrate their special occasion with occasional unforgettable presents to make their day more extraordinary
         </p>
+        </div>
+        </div>
         <div class="column">
-          <h3> Vision & Mission</h3>
+          <div class="row">
+          <h3> Vision and Mission</h3>
           <div className="vm-container"> 
           <p>
           Celebrace hereby offers our dreariest customers the unique, best quality affordable products they deserve for their most unforgettable moments and special occasion by striving to be the best in our craft and what we do. 
