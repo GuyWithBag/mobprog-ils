@@ -4,21 +4,21 @@ const contact = () => {
   return (
     <section id="contact">
       <div className="column">
-      <h3>CONTACT FORM</h3>
-      <form action="/action_page.php">
-      <label for="fname">Name:</label>
+      <h3>CONTACT htmlForM</h3>
+      <htmlForm action="/action_page.php">
+      <label htmlFor="fname">Name:</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
       <div className="row">
-          <label for="lname">Phone#.:</label>
+          <label htmlFor="lname">Phone#.:</label>
           <input type="number"  placeholder="Phone no."></input>
       </div>
       <div className="row">
-          <label for="lname">Email:</label>
+          <label htmlFor="lname">Email:</label>
           <input type="email" placeholder="Email"></input>
       </div>
-          <label for="subject">Message:</label>
+          <label htmlFor="subject">Message:</label>
           <textarea id="Message" name="Message" placeholder="Message" style="height:50px"></textarea> 
-      </form>
+      </htmlForm>
           <div id="Submit" button className="btn">Submit</div>
       </div>
         <div className="column">
