@@ -3,8 +3,8 @@ import React from 'react';
 const about = () => {
   return (
     <>
-      <div class="column">
-        <div class="row">
+      <div className="column">
+        <div className="row">
       <h3>About</h3> 
       <div className="about-container">   
         <p>
@@ -15,8 +15,8 @@ const about = () => {
         </div>
         </div>
         </div>
-        <div class="column">
-          <div class="row">
+        <div className="column">
+          <div className="row">
           <h3> Vision and Mission</h3>
           <div className="vm-container"> 
           <p>
