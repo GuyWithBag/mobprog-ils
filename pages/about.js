@@ -15,16 +15,16 @@ const about = () => {
         </div>
         </div>
         </div>
-        <div className="column">
-          <div className="row">
+        <div className="row">
+          <div className="column">
           <h3> Vision and Mission</h3>
           <div className="vm-container"> 
           <p>
           Celebrace hereby offers our dreariest customers the unique, best quality affordable products they deserve for their most unforgettable moments and special occasion by striving to be the best in our craft and what we do. 
           <ul>
-          <li>o produce affordable products that a broader population can buy </li>
-          <li>to help people commemorate their special occasions with budget-friendly presents </li>
-          <li>to establish a well-known business for gifts and surprises</li>
+          <li>To produce affordable products that a broader population can buy </li>
+          <li>To help people commemorate their special occasions with budget-friendly presents </li>
+          <li>To establish a well-known business for gifts and surprises</li>
          </ul>
           </p>
         </div>
