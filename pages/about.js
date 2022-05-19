@@ -16,7 +16,6 @@ const about = () => {
         </div>
         </div>
         <div className="row">
-          <div className="column">
           <h3> Vision and Mission</h3>
           <div className="vm-container"> 
           <p>
@@ -27,7 +26,6 @@ const about = () => {
           <li>To establish a well-known business for gifts and surprises</li>
          </ul>
           </p>
-        </div>
         </div>
        </div>
     </>
