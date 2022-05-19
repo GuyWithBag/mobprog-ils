@@ -12,7 +12,7 @@ const about = () => {
 <div className="row">
 
     <div classNaem="image">
-        <image src="" alt="">
+        
     </div>
 
     <div class="content">
