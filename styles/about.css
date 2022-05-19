@@ -8,7 +8,6 @@
   
   .about-container p {
     text-align: justify;
-     justify-content: center;
   }
   .vm-container {
     font-family: arial;
@@ -19,6 +18,5 @@
   }
   .vm-container p {
     text-align: justify;
-    justify-content: center;
 
   }
