@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <>  
-        <section className="about" id="about">
+        <div className="about" id="about">
             <h3 className="sub-heading">About Us</h3>
             <h1 className="heading">Why Choose Us?</h1>
 
@@ -43,7 +43,7 @@ const About = () => {
                     <button className="read-more-btn">Read More</button>
                 </div>
             </div>
-        </section> 
+        </div> 
     </>
   )
 }
