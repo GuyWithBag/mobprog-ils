@@ -9,7 +9,7 @@
   box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
 }
 .info1{
-  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url);
   background-size:cover;
   display:flex;
   flex-direction:column;
@@ -72,7 +72,7 @@
       display:none;
   }
   .info2{
-      background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+      background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7), url);
       background-size:cover;
   }
   .inside-contact input, .inside-contact textarea{
