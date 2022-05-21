@@ -22,7 +22,7 @@ import { Product, FooterBanner, HeroBanner, HeaderImage } from '../components';
 // https://mobprog-ils.sanity.studio/desk/product;c409ccec-7402-4b0c-b913-680d3abb61f8
 // https://mobprog-ils.vercel.app/
 
-
+//update chocolate boquet desc
 const Home = ({ products, bannerData }) => (
   <>
     <HeaderImage />
