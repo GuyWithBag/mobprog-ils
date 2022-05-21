@@ -3,7 +3,7 @@ import React from 'react'
 const contact = () => {
   return (
     <div className="container">
-    <div className="contact-me">
+    {/*<div className="contact-me">
        <div className="contact-info info1">
           <p>
              <i className="fas fa-map-marker-alt"></i> Address <br />
@@ -47,7 +47,7 @@ const contact = () => {
 
  </div>
  </div>
- </div>
+ </div> */}
  </div>
  )
 }
