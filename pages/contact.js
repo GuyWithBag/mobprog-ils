@@ -2,27 +2,27 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <div class="container">
-    <div class="contact-me">
-       <div class="contact-info info1">
+    <div className="container">
+    <div className="contact-me">
+       <div className="contact-info info1">
           <p>
-             <i class="fas fa-map-marker-alt"></i> Address <br />
+             <i className="fas fa-map-marker-alt"></i> Address <br />
              <span> kkkkk
              <br />
             kkkk
              </span>
           </p>
           <p>
-             <i class="fas fa-phone-alt"></i> Let's Talk <br />
+             <i className="fas fa-phone-alt"></i> Let's Talk <br />
              <span> 0910</span>
           </p>
           <p>
-             <i class=" far fa-envelope"></i> Email <br />
+             <i className=" far fa-envelope"></i> Email <br />
              <span>contact@example.com</span>
           </p>
        </div>
-       <div class="contact-info info2">
-          <div class="inside-contact">
+       <div className="contact-info info2">
+          <div className="inside-contact">
              <h2>Contact Us</h2>
              <h3>
                <span id="confirm"></span>

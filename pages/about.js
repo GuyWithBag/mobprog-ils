@@ -3,14 +3,14 @@ import React from 'react';
 const About = () => {
   return (
     <>  
-        {/*<section class="about" id="about">
+        <section class="about" id="about">
             <h3 class="sub-heading">About Us</h3>
             <h1 class="heading">Why Choose Us?</h1>
 
             <div class="row">
 
                 <div class="image">
-                    <img src="images/about-img.png" alt="">
+                    <img src="images/about-img.png" alt=""/>
                 </div>
 
                 <div class="content">
@@ -39,7 +39,7 @@ const About = () => {
                     <button class="read-more-btn">Read More</button>
                 </div>
             </div>
-  </section> */}
+  </section> *
     </>
   )
 }
