@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import products from '../public/assets/images/flowers/products.png'
+import products from '../public/static/assets/images/flowers/products.png'
 const customerService = () => {
   return (
     <div className='layout-inner-contents'>
