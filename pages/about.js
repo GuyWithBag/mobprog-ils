@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -10,7 +11,10 @@ const About = () => {
             <div className="row">
 
                 <div className="image">
-                    <img src="images/about-img.png" alt=""/>
+                    <Image src="/../public/assets/images/flowers/products.png" alt="Flower product"
+                    width='fixed'
+                    height='fixed'
+                    />
                 </div>
 
                 <div className="content">
