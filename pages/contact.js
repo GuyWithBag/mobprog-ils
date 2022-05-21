@@ -13,7 +13,7 @@ const contact = () => {
              </span>
           </p>
           <p>
-             <i className="fas fa-phone-alt"></i> Let's Talk <br />
+             <i className="fas fa-phone-alt"></i> Let&apos;s Talk <br />
              <span> 0910</span>
           </p>
           <p>
