@@ -1,66 +1,81 @@
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
+.contact-me{
+  background: #fff;
+  display:flex;
+  margin:80px 0;
+}
+.contact-info{
+  display:flex;
+  flex:1;
+  box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.info1{
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  color:#fff;
+  padding:100px 0;
+}
+.info1 p{
+  padding-left:20%;
+  font-size:20px;
+  text-shadow:0px 0px 2px #000;
+}
+.info1 p span{
+  font-size:16px;
+  color:#9df2fd;
+}
+.info1 p{
+  padding-left:20%;
+  font-size:20px;
+  text-shadow:0px 0px 2px #000;
+}
+.info1 p span{
+  font-size:16px;
+  color:#9df2fd;
+}
+.info1 p{
+  padding-left:20%;
+  font-size:20px;
+  text-shadow:0px 0px 2px #000;
+}
+.info1 p span{
+  font-size:16px;
+  color:#9df2fd;
+}
+.inside-contact input, .inside-contact textarea{
+  width:100%;
+  background-color:#eee;
+  border:1px solid rgba(0,0,0,0.48);
+  padding:5px 10px;
+  margin-bottom:20px;
+}
+.inside-contact input[type=submit]{
+  background-color:#000;
+  color:#fff;
+  transition:0.2s;
+  border:2px solid #000;
+  margin:30px 0;
+}
+.inside-contact input[type=submit]:hover{
+  background-color:#fff;
+  color:#000;
+  transition:0.2s;
+}
+@media screen and (max-width:991px){
+  .contact-parent{
+      display:block;
+      width:100%;
   }
-  .column img {
-    opacity: 0.8; 
-    cursor: pointer; 
+  .info1{
+      display:none;
   }
-  
-  .column img:hover {
-    opacity: 1;
+  .info2{
+      background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+      background-size:cover;
   }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .inside-contact input, .inside-contact textarea{
+      background-color:#fff;
   }
-  .container {
-    position: relative;
-    display: none;
-  }
-  #imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-  }
-  .btn {
-    background-color: #5d2906;
-    border: none;
-    color: white;
-    padding: 9px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    text-align: center;
-  }
-  .btn:hover {
-    background-color:#BA8C63;
-  }
-  * {box-sizing: border-box;}
-  
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #5d2906;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color:#5d2906;
-    color: white;
-    padding: 10px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn [type=submit]:hover {
-    background-color: #BA8C63;
-  }
+}
