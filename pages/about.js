@@ -39,7 +39,7 @@ const About = () => {
                     <button className="read-more-btn">Read More</button>
                 </div>
             </div>
-  </section> *
+        </section> 
     </>
   )
 }

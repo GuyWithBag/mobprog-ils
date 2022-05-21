@@ -73,7 +73,7 @@
 .nav-bar-logo {
     width: 200px;
     height: 70px;
-    background-image: url(../assets/images/designs/celebrace_logo.png);
+    background-image: url(../public/assets/images/designs/celebrace_logo.png);
     background-size: 100%;
     background-repeat:no-repeat;
     background-position: center;
