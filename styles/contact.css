@@ -47,20 +47,20 @@
 .inside-contact input, .inside-contact textarea{
   width:100%;
   background-color:#eee;
-  border:1px solid rgba(0,0,0,0.48);
+  border:1px solid rgba(255, 0, 140, 0.48);
   padding:5px 10px;
   margin-bottom:20px;
 }
 .inside-contact input[type=submit]{
-  background-color:#000;
+  background-color:rgba(255, 0, 140, 0.48);
   color:#fff;
   transition:0.2s;
-  border:2px solid #000;
+  border:2px solid rgba(255, 0, 140, 0.48);
   margin:30px 0;
 }
 .inside-contact input[type=submit]:hover{
   background-color:#fff;
-  color:#000;
+  color:rgba(255, 0, 140, 0.48);
   transition:0.2s;
 }
 @media screen and (max-width:991px){
