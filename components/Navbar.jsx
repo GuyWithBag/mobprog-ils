@@ -23,7 +23,11 @@ const Navbar = () => {
                 <div>
                     <Link href='/'>
                         <a>
-                            <div className="nav-bar-logo"></div>
+                            <Image 
+                            src={'/static/assets/images/designs/celebrace_logo.png'}
+                            width='200px'
+                            height='70px'
+                            />
                         </a>
                     </Link>
                 </div>
