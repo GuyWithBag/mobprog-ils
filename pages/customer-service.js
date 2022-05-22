@@ -6,7 +6,7 @@ const customerService = () => {
     <div className='layout-inner-contents'>
       <div>CustomerService</div>
       <Image 
-      src={products}
+      src='/static/assets/images/flowers/products.png'
       width='300px'
       height='300px'
       />
