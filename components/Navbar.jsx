@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa'
 import { AiOutlineShopping } from 'react-icons/ai'
 import { Cart } from '.';
 import { useStateContext } from '../context/StateContext';
-import Image from 'next/image';
+
 // [Pages:]
 //
 // -Homepage (WIP)
@@ -23,12 +23,7 @@ const Navbar = () => {
                 <div>
                     <Link href='/'>
                         <a>
-                            <Image 
-                            className="nav-bar-logo"
-                            src='/static/assets/images/designs/celebrace_logo.png'
-                            width='200px'
-                            height='70px'
-                            />
+                            <div className="nav-bar-logo"></div>
                         </a>
                     </Link>
                 </div>
