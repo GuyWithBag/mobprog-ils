@@ -72,6 +72,7 @@
 
 .nav-bar-logo {
     padding: 0 1rem;
+    border-style: solid;
 }
 
 @media screen and (max-width: 768px){
