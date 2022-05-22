@@ -71,12 +71,6 @@
 }
 
 .nav-bar-logo {
-    width: 200px;
-    height: 70px;
-    background-image: url(../public/static/assets/images/designs/celebrace_logo.png);
-    background-size: 100%;
-    background-repeat:no-repeat;
-    background-position: center;
     padding: 0 1rem;
 }
 
