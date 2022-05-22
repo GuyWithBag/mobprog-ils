@@ -651,7 +651,12 @@ margin-top: 160px;
   width: 100%;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
+
+  .cart-icon{
+    display: none;
+  }
+
   .hero-banner-container{
     height: 560px;
   }
