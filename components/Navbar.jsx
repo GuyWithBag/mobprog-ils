@@ -27,7 +27,7 @@ const Navbar = () => {
                             <Image 
                             src={'/static/assets/images/designs/celebrace_logo.png'}
                             width='200px'
-                            height='70px'
+                            height='96px'
                             />
                         </a>
                     </Link>
