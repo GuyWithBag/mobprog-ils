@@ -12,8 +12,8 @@ const About = () => {
 
                 <div className="image">
                     <Image src="/static/assets/images/flowers/products.png" alt="Flower product"
-                    width='400px'
-                    height='400px'
+                    width='500px'
+                    height='500px'
                     />
                 </div>
 
