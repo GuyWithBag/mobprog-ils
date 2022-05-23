@@ -13,8 +13,8 @@
 }
 
 .about .row .image img {
-  width: 10%;
-  height: 40%;
+  width: 300px;
+  height:300px;
   border-style: solid;
 }
 
