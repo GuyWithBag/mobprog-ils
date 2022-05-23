@@ -12,7 +12,8 @@
 }
 
 .about .row .image img {
-  width: 40%;
+  width:300px;
+  height:300px;
 }
 
 .about .row .content {
