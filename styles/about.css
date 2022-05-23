@@ -28,7 +28,7 @@
 
 .about .row .content p {
   color: var(--light-color);
-  font-size: 1rem;
+  font-size: 2rem;
   padding: .5rem 0;
   line-height: 2;
 }
