@@ -9,13 +9,11 @@
 
 .about .row .image {
   flex: 1 1 45rem;
-  border-style: solid;
 }
 
 .about .row .image img {
   width: 300px;
   height:300px;
-  border-style: solid;
 }
 
 .about .row .content {
