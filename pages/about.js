@@ -20,8 +20,7 @@ const About = () => {
                 <div className="content">
                     <h3>BEST COMPANION FOR SPECIAL OCCASION</h3>
                     <p className="text">The reason you should pick us to be part of your
-                     special occasion is that we offer budget-friendly products that would part in your surprises. Also,we
-                     offer free delivery in any part of Tagum City. </p>  <span className="moreText">
+                     special occasion is that we offer budget-friendly products that would part in your surprises. Also,we offer free delivery in any part of Tagum City. </p>  <span className="moreText">
                     <p>We also offer the very loved Filipino dishes around the country, we cook it with love and care. 
                     You might be able to taste that love and care we put for the food we offer. 
                     That&apos;s why you should choose us when buying your meal.</p> 
