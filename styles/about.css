@@ -8,12 +8,12 @@
 }
 
 .about .row .image {
-  flex: 1 1 50rem;
+  flex: 1 1 30rem;
 }
 
 .about .row .image img {
-  width: 100px;
-  height:100px;
+  width: 30%;
+
 }
 
 .about .row .content {
