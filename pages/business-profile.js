@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const businessProfile = () => {
   return (
@@ -9,7 +10,7 @@ const businessProfile = () => {
             <div className="row">
 
                 <div className="image">
-                    <Image src="" alt=""
+                    <Image src="/static/assets/images/business profile images/" alt=""
                     width='600px'
                     height='600px'
                     />
@@ -26,7 +27,7 @@ const businessProfile = () => {
     <div className="row">
 
         <div className="image">
-            <Image src="" alt=""
+            <Image src="/static/assets/images/business profile images/" alt=""
             width='600px'
             height='600px'
             />

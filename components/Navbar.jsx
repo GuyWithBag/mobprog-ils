@@ -32,7 +32,9 @@ const Navbar = () => {
                         </a>
                     </Link>
                 </div>
-                <FaBars className="fa-bars"/>
+                <button type="button" className="" onClick={() => showSidebar}>
+                    <FaBars className="fa-bars"/>
+                </button>
                 <div className="nav-menu">
                     <div className="nav-link">
                         <Link href='/' activestyle>

@@ -5,6 +5,7 @@ import { Layout, Navbar } from '../components';
 import { StateContext } from '../context/StateContext';
 import '../styles/globals.css';
 import '../styles/navbar.css';
+import '../styles/sidebar.css';
 import '../styles/about.css' ;
 import '../styles/contact.css';
 
