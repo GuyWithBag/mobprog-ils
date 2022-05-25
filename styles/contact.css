@@ -1,12 +1,11 @@
 .contact-me{
-  background: #fff;
+  background: #ec920b;
   display:flex;
   margin:80px 0;
 }
 .contact-info{
   display:flex;
   flex:1;
-  box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
 }
 .info1{
   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url);
@@ -14,7 +13,7 @@
   display:flex;
   flex-direction:column;
   justify-content:space-around;
-  color:#fff;
+  color:#000000;
   padding:100px 0;
 }
 .info1 p{
@@ -24,7 +23,6 @@
 }
 .info1 p span{
   font-size:16px;
-  color:#9df2fd;
 }
 .info1 p{
   padding-left:20%;
@@ -33,7 +31,6 @@
 }
 .info1 p span{
   font-size:16px;
-  color:#9df2fd;
 }
 .info1 p{
   padding-left:20%;
@@ -42,7 +39,6 @@
 }
 .info1 p span{
   font-size:16px;
-  color:#9df2fd;
 }
 .inside-contact input, .inside-contact textarea{
   width:100%;
@@ -59,7 +55,7 @@
   margin:30px 0;
 }
 .inside-contact input[type=submit]:hover{
-  background-color:#fff;
+  background-color:#ffffff;
   color:rgba(255, 0, 140, 0.48);
   transition:0.2s;
 }
