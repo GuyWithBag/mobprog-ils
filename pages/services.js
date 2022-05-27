@@ -1,5 +1,5 @@
 import React from 'react'
-import { ServiceBlock } from '../components'
+import { ServiceBlock } from '../components/services'
 
 const services = () => {
   return (
