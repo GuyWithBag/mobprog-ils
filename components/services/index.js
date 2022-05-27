@@ -1,1 +1,1 @@
-export { default as ServiceBlocks } from './services/ServiceBlock';
+export { default as ServiceBlocks } from './ServiceBlock';
