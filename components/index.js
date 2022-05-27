@@ -6,4 +6,4 @@ export { default as HeroBanner } from './HeroBanner';
 export { default as FooterBanner } from './FooterBanner';
 export { default as Cart } from './Cart';
 export { default as HeaderImage } from './HeaderImage';
-export { default as ServiceBlocks } from './services/ServiceBlock';
+export { default as ServiceBlocks } from './ServiceBlock';
