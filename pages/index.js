@@ -33,10 +33,6 @@ const Home = ({ products, bannerData }) => (
           <p>The best selling products of Celebrace</p>
         </div>
         <div className="products-container">
-          {/* Only for the name of each product */}
-          {products?.map((product) => product.name)}
-        </div>
-        <div className="products-container">
           {products?.map((product) => <Product key={product._id} product={product} />)}
         </div>
 

@@ -105,6 +105,9 @@ width: 100%;
   gap: 15px;
   margin-top: 20px;
   width: 100%;
+  background-color: #ffc31e;
+  padding: 15px;
+  border-radius: 20px;
 }
 .product-card{
  cursor: pointer;
@@ -205,9 +208,8 @@ text-align: end;
   text-align: center;
   margin: 40px 0px;
   color: black;
-  background-color: white;
+  background-color: #ffc31e;
   border-radius: 13px;
-
 }
 .products-heading h2{
   font-size: 40px;
