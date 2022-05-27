@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const ServiceBlocks = ( image, text ) => {
+const ServiceBlock = ( image, text ) => {
   return (
     <div>
         <Image 
@@ -16,4 +16,4 @@ const ServiceBlocks = ( image, text ) => {
   )
 }
 
-export default ServiceBlocks
+export default ServiceBlock

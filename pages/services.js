@@ -1,10 +1,10 @@
 import React from 'react'
-import { ServiceBlocks } from '../components'
+import { ServiceBlock } from '../components'
 
 const services = () => {
   return (
     <div>
-      <ServiceBlocks image={'/static/assets/images/designs/celebrace_logo.png'} text='Hi' />
+      <ServiceBlock image={'/static/assets/images/designs/celebrace_logo.png'} text='Hi' />
     </div>
   )
 }
