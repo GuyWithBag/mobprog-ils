@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const ServiceBlock = ( image, text ) => {
+const ServiceBlock = ( image = '/static/assets/images/designs/celebrace_logo.png', text = 'lorem ipsum') => {
   return (
     <div>
         <Image 
