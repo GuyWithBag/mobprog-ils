@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const ServiceBlock = ( text = 'lorem ipsum') => {
+const ServiceBlock = ({text = 'lorem ipsum'}) => {
   return (
     <div>
         <p>

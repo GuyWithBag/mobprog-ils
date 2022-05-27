@@ -4,7 +4,7 @@ import { ServiceBlock } from '../components'
 const services = () => {
   return (
     <div>
-      <ServiceBlock text='Hi bitch' />
+      <ServiceBlock text={'Hi bitch'} />
     </div>
   )
 }
