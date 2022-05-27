@@ -4,7 +4,7 @@ import { ServiceBlock } from '../components'
 const services = () => {
   return (
     <div>
-      <ServiceBlock text={'Hi bitch'} />
+      <ServiceBlock image={'/static/assets/images/designs/celebrace_logo.png'} text={'Hi bitch'} />
     </div>
   )
 }
