@@ -20,25 +20,28 @@ const About = () => {
                 <div className="content">
                     <h3>BEST COMPANION FOR SPECIAL OCCASION</h3>
                     <p className="text">The reason you should pick us to be part of your
-                     special occasion is that we offer budget-friendly products that would part in your surprises. Also,we offer free delivery in any part of Tagum City. </p>  <span className="moreText">
-                    <p>We also offer the very loved Filipino dishes around the country, we cook it with love and care. 
-                    You might be able to taste that love and care we put for the food we offer. 
-                    That&apos;s why you should choose us when buying your meal.</p> 
-                    
-                    <div className="icons-container">
-                        <div className="icons">
-                            <i className="fas fa-shipping-fast"></i>
-                            <span>Free Delivery</span> 
-                        </div>
-                        <div className="icons">
-                            <i className="fas fa-dollar-sign"></i>
-                            <span>Easy Payments</span> 
-                        </div>
-                        <div className="icons">
-                            <i className="fas fa-headset"></i>
-                            <span>24/7 service</span> 
-                        </div>
-                    </div> </span>
+                     special occasion is that we offer budget-friendly products that would part in your surprises. Also,we offer free delivery in any part of Tagum City. </p>  
+                    <span className="moreText">
+                        <p>
+                            We also offer the very loved Filipino dishes around the country, we cook it with love and care. 
+                        You might be able to taste that love and care we put for the food we offer. 
+                        That&apos;s why you should choose us when buying your meal.
+                        </p> 
+                        {/*<div className="icons-container">
+                            <div className="icons">
+                                <i className="fas fa-shipping-fast"></i>
+                                <span>Free Delivery</span> 
+                            </div>
+                            <div className="icons">
+                                <i className="fas fa-dollar-sign"></i>
+                                <span>Easy Payments</span> 
+                            </div>
+                            <div className="icons">
+                                <i className="fas fa-headset"></i>
+                                <span>24/7 service</span> 
+                            </div> 
+                        </div> */}
+                    </span>
                     <button className="read-more-btn">Read More</button>
                 </div>
             </div>

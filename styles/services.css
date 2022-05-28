@@ -1,0 +1,55 @@
+
+.services-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 300px;
+    background-color: #FF007E;
+    border-radius: 20px;
+}
+
+.services-about-contents {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+}
+
+.services-about h1 {
+    font-size: 45px;
+}
+
+.services-about p {
+    padding-top: 30px;
+    font-size: 23px;
+    word-wrap: break-word;
+}
+
+.services-service-blocks {
+    padding: 5px;
+}
+
+.service-block {
+    display: flex;
+    margin-top: 10px;
+}
+
+.service-block-image {
+    min-width: 200px;
+}
+
+.service-block-content {
+    min-width: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.service-block-content p {
+    word-wrap: break-word;
+    font-size: 23px;
+}

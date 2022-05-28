@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.display-none {
+  display: none;
+}
+
 .main-container{
 max-width: 1400px; 
 margin: auto;
