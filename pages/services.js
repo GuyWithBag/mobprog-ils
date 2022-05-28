@@ -1,5 +1,6 @@
 import React from 'react'
 import { ServiceBlock } from '../components'
+import { MdDeliveryDining } from 'react-icons/md'
 
 const services = () => {
   return (
@@ -19,12 +20,18 @@ const services = () => {
           image='/static/assets/images/flowers/products.png' 
           text='It would be more extraordinary if the present you would give to your love ones fit their personality, favorites, loves and more. Celebrace got your back, because Celebrace can customize your desired, design, color, subject and more.'
         />
+        <div className='service-block'>
+          <div className='service-block-icon'>
+            <MdDeliveryDining className='service-block-icon-image'/>
+          </div>
+          <div className='service-block-content'>
+            <p>
+              It would be more convenient to customers if there is a door-to-door delivery. Celebrace loves you and has a free door-to-door delivery for our beloved customers.
+            </p>
+          </div>
+        </div>
         <ServiceBlock 
-          image='/static/assets/images/flowers/products.png' 
-          text='It would be more convenient to customers if there is a door-to-door delivery. Celebrace loves you and has a free door-to-door delivery for our beloved customers.'
-        />
-        <ServiceBlock 
-          image='/static/assets/images/flowers/products.png' 
+          image='/static/assets/images/flowers/1-dozen Pink Roses bouquet.png' 
           text='As technology dominate the world, people always use gadgets. For easy purchasing, Celebrace has a website. In order to purchase customer as easy as 1, 2, 3 tap. Further, Celebrace is available on Facebook for quality checking and online booking.'
         />
       </div>

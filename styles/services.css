@@ -26,16 +26,37 @@
 }
 
 .services-service-blocks {
-    padding: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .service-block {
     display: flex;
     margin-top: 10px;
+    filter: drop-shadow(5px 5px 5px #afa984);
+}
+
+.service-block-icon {
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #ffc31f;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.service-block-icon-image {
+    color: #FF007E;
+    min-height: 200px;
+    min-width: 200px;
 }
 
 .service-block-image {
     min-width: 200px;
+    background-color: #ffc31f;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding-bottom: 7px;
 }
 
 .service-block-content {
