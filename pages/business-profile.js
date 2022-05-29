@@ -21,7 +21,43 @@ const businessProfile = () => {
             image='/static/assets/images/business profile images/Erika.png'
             position='Manager'
             color='#FF007E'
+          />      
+          <BusinessProfiles 
+            name='Jevan Bañez'
+            image=''
+            position='Finance Manager  '
+            color='#FF007E'
           />
+          <BusinessProfiles 
+            name='Alexis Nicole Bughao'
+            image=''
+            position='Technology Provider and Applicator '
+            color='#FF007E'
+          />
+            <BusinessProfiles 
+            name='Loejee Miguel Dulaugon'
+            image=''
+            position='Technology Provider and Applicator '
+            color='#FF007E'
+            />
+          <BusinessProfiles 
+            name='Febbie Kate Tibog'
+            image=''
+            position='Technology Provider and Applicator '
+            color='#FF007E'
+            /> 
+          <BusinessProfiles 
+            name='Kiaser Zamora'
+            image=''
+            position='Operating and Support (Endorser, Advertiser) '
+            color='#FF007E'
+            /> 
+          <BusinessProfiles 
+            name='Ranz Indong '
+            image=''
+            position='Designer and Graphics Producer '
+            color='#FF007E'
+            />   
         </div>   
       </div>                  
     </>
