@@ -14,7 +14,7 @@ const contact = () => {
             </p>
             <p>
                <i className="fas fa-phone-alt"></i> Let&apos;s Talk <br />
-               <span> 0910</span>
+               <span> 09483182462 - <b>SMART</b> </span>
             </p>
             <p>
                <i className=" far fa-envelope"></i> Email <br />
