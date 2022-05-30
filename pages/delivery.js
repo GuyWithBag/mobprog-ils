@@ -32,7 +32,7 @@ const delivery = () => {
         </div>
 
         <div className="inputBox">
-            <div class="input">
+            <div className="input">
                 <span>How Much?</span>
                 <input type="number" placeholder="How many orders"></input>
             </div>
@@ -53,7 +53,7 @@ const delivery = () => {
             </div>
         </div>
 
-        <button onclick="submitF()" className="btn">Submit Now</button>
+        <button onClick="submitF()" className="btn">Submit Now</button>
 
     </form>
 </section>
