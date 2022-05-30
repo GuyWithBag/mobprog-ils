@@ -43,7 +43,7 @@ const delivery = () => {
         </div>
 
         <div className="inputBox">
-            <div class="input">
+            <div className="input">
                 <span>Your Address</span>
                 <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
             </div>
