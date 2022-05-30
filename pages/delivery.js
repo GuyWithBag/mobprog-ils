@@ -5,7 +5,7 @@ const delivery = () => {
     <section className="order" id="order">
 
     <h3 className="sub-heading">Oder Now!</h3>
-    <h1 class="heading">Free and Fast</h1>
+    <h1 className="heading">Free and Fast</h1>
 
     <form action="">
 
