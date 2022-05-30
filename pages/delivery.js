@@ -14,7 +14,7 @@ const delivery = () => {
                 <span>Your Name</span>
                 <input type="text" placeholder="Enter your name"></input>
             </div>
-            <div class="input">
+            <div className="input">
                 <span>Your Number</span>
                 <input type="text" placeholder="Enter your number"></input>
             </div>
