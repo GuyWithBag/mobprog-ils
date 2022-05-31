@@ -27,7 +27,7 @@ const delivery = () => {
             </div>
             <div className="input">
                 <span>Additional order</span>
-                <input type="test" placeholder="Extra with order"></input>
+                <input type="test" placeholder="Extra order"></input>
             </div>
         </div>
 
