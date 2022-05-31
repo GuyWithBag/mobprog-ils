@@ -8,7 +8,7 @@
   flex:1;
 }
 .info1{
-  background: url('/static/etc etc');
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url);
   background-size:cover;
   display:flex;
   flex-direction:column;
@@ -68,7 +68,7 @@
       display:none;
   }
   .info2{
-      background-image: url('/static/etc etc');
+      background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7), url);
       background-size:cover;
   }
   .inside-contact input, .inside-contact textarea{
