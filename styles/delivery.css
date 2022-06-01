@@ -7,7 +7,7 @@
     background: #fff;
     padding: 10px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20rem;
 }
 
 .order form .inputBox {
@@ -23,7 +23,7 @@
 .order form .inputBox .input span {
     display: block;
     padding: .5rem 0;
-    font-size: 1.5rem;
+    font-size: 4rem;
     color: var(--light-color);
 }
 
