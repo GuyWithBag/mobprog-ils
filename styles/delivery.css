@@ -17,7 +17,7 @@
 }
 
 .order form .inputBox .input {
-    width: 49%;
+    width: 60%;
 }
 
 .order form .inputBox .input span {
@@ -32,7 +32,7 @@
     background: #eee;
     border-radius: .5rem;
     padding: 1rem;
-    font-size: 1.6rem;
+    font-size: 40px;
     color: var(--black);
     text-transform: none;
     margin-bottom: 1rem;
@@ -40,7 +40,7 @@
 }
 
 .order form .inputBox .input textarea {
-    height: 20rem;
+    height: 500px;
     resize: none;
 }
 
