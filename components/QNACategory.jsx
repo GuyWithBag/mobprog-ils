@@ -4,15 +4,15 @@ import { QNACategorySubMenu } from './'
 import { useState } from 'react';
 
 const QNACategory = ({ icon = <BiDownArrow />, category, subMenuList }) => {
-  const [subMenuOn, showSubMenu] = useState(false);
+  const [showSubMenu, setShowSubMenu] = useState(false);
   return (
     <>
-      <button className='qna-category' onClick={() => showSubMenu((o) => !o)}>
+      <button className='qna-category' onClick={() => setShowSubMenu((o) => !o)}>
           {icon}
           <p className='qna-category-text'>{category}</p>
-          <BiDownArrow className={subMenuOn ? 'qna-category-down-arrow' : 'qna-category-down-arrow-toggled'}/>
+          <BiDownArrow className={showSubMenu ? 'qna-category-down-arrow' : 'qna-category-down-arrow-toggled'}/>
       </button>
-      <div className={subMenuOn ? 'qna-category-submenu' : 'display-none'}>
+      <div className={showSubMenu ? 'qna-category-submenu' : 'display-none'}>
           {subMenuList?.map((subMenu) => <QNACategorySubMenu text={subMenu.text} />)}
       </div>
     </>

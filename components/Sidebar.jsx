@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'next/link';
 import * as AiIcons from 'react-icons/ai'
 
-const Sidebar = () => {
+const Sidebar = ( active ) => {
+    alert(active)
   return (
-    <nav className={sidebar?'side-nav-menu active':'sidenav--menu'}>
+    <nav className={active}>
         <ul className='sidenav-menu-items'>
             <li className='navbar-toggle'>
                 <Link to='#'className='menu-bars'>
