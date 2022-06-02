@@ -7,4 +7,7 @@ export { default as FooterBanner } from './FooterBanner';
 export { default as Cart } from './Cart';
 export { default as HeaderImage } from './HeaderImage';
 export { default as ServiceBlock } from './ServiceBlock';
-export { default as BusinessProfiles } from './BusinessProfiles';
+export { default as CustomerServiceCategories } from './CustomerServiceCategories';
+export { default as CustomerServiceHotQuestion } from './CustomerServiceHotQuestion';
+export { default as QNACategory } from './QNACategory';
+export { default as QNACategorySubMenu } from './QNACategorySubMenu';

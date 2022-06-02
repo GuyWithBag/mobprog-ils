@@ -62,11 +62,6 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="nav-link">
-                        <Link className="nav-link" href='/business-profile' activeStyle>
-                            <a>Business Profile</a>
-                        </Link>
-                    </div>
-                    <div className="nav-link">
                         <Link className="nav-link" href='/contact' activeStyle>
                             <a>Contact</a>
                         </Link>

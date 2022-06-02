@@ -1,0 +1,66 @@
+.qna-contents {
+    display: flex;
+}
+
+.qna-all-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 15px 25px;
+    background-color: white;
+}
+
+.qna-category {
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    min-width: 100%;
+    text-align: left;
+}
+
+.qna-category-text {
+    min-width: 95%;
+    font-size: 17px;
+}
+
+.qna-category-down-arrow {
+    align-items: center;
+    justify-content: center;
+    min-width: 15px;
+    min-height: 15px;
+    margin-top: 5px;
+    transform: rotate(180deg);
+}
+
+.qna-category-down-arrow-toggled {
+    align-items: center;
+    justify-content: center;
+    min-width: 15px;
+    min-height: 15px;
+    margin-top: 5px;
+}
+
+.qna-category-submenu {
+    display: flex;
+    padding-left: 20px;
+    gap: 3px;
+}
+
+.qna-category-submenu-block {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.qna-all-answers {
+    background-color: green;
+    width: 100%;
+    padding: 40px;
+}
+
+.qna-answer {
+    color: black;
+    font-size: 20px;
+}

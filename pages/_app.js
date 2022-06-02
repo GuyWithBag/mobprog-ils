@@ -9,7 +9,8 @@ import '../styles/sidebar.css';
 import '../styles/about.css' ;
 import '../styles/contact.css';
 import '../styles/services.css';
-import '../styles/business-profile.css'
+import '../styles/customer-service.css';
+import '../styles/questions-and-answers.css';
 
 function MyApp({ Component, pageProps }) {
   return (
