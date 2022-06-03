@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 import { useState } from 'react'
 import { ContactSubmitted } from './'
 
-const contact = () => {
+const Contact = () => {
    const [ showContactFormSubmitted, setShowContactFormSubmitted ] = useState(false);
    return (
       <>
@@ -59,4 +59,4 @@ const contact = () => {
    )
 }
 
-export default contact
+export default Contact
