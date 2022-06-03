@@ -29,17 +29,11 @@
 .nav-link:focus{
   background-color: #bf1269;
   color: white;
-  
 }
 
 .nav-link:hover{
   background-color: #FF007E;
   color: white;
-}
-
-.fa-bars {
-  display: none;
-  color: #FF007E;
 }
 
 .nav-menu {
@@ -82,16 +76,7 @@
     padding: 0 1rem;
 }
 
-@media screen and (max-width: 1000px){
-    .fa-bars {
-        display: block;
-        position: absolute;
-        top: 26px;
-        right: 15px;
-        transform: translate(-100, 75%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
+@media screen and (max-width: 1000px) {
     .nav-menu {
         display: none;
     }

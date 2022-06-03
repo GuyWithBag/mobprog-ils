@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'next/link';
-import { FaBars } from 'react-icons/fa'
 import { AiOutlineShopping } from 'react-icons/ai'
 import { Cart } from '.';
 import { useStateContext } from '../context/StateContext';
 import Image from 'next/image'
-import { useState } from 'react'
 import { Sidebar } from '../components'
 
 // [Pages:]
@@ -20,7 +18,6 @@ import { Sidebar } from '../components'
 
 const Navbar = () => {
     const { showCart, setShowCart, totalQuantities } = useStateContext();
-    const [ showSidebar, setShowSidebar ] = useState(false)
     return (
         <>
             <div className='nav'>
@@ -35,10 +32,7 @@ const Navbar = () => {
                         </a>
                     </Link>
                 </div>
-                <button type='button' className='' onClick={() => setShowSidebar((o) => !o)}>
-                    <FaBars className='fa-bars'/>
-                </button>
-                <Sidebar active={showSidebar ? 'side-nav-menu active' : 'sidenav-menu'}/>
+                <Sidebar />
                 <div className='nav-menu'>
                     <div className='nav-link'>
                         <Link href='/' activestyle>
