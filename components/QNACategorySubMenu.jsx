@@ -1,6 +1,6 @@
 import React from 'react'
 
-const QNACategorySubMenu = ({text, changePage}) => {
+const QNACategorySubMenu = ({key, text, changePage}) => {
   return (
     <button className='qna-category-submenu-block'>
         {text}

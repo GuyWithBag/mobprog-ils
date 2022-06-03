@@ -7,7 +7,7 @@ const Sidebar = ( active ) => {
     <nav className={active}>
         <ul className='sidenav-menu-items'>
             <li className='navbar-toggle'>
-                <Link to='#'className='menu-bars'>
+                <Link href='/'className='menu-bars'>
                     <AiIcons.AiOutlineClose/>
                 </Link>
             </li>
@@ -34,11 +34,6 @@ const Sidebar = ( active ) => {
             <div className="nav-link">
                 <Link className="nav-link" href='/customer-service' activeStyle>
                     <a>Customer Service</a>
-                </Link>
-            </div>
-            <div className="nav-link">
-                <Link className="nav-link" href='/business-profile' activeStyle>
-                    <a>Business Profile</a>
                 </Link>
             </div>
             <div className="nav-link">
