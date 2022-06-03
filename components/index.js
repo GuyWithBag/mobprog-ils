@@ -13,3 +13,4 @@ export { default as CustomerServiceHotQuestion } from './CustomerServiceHotQuest
 export { default as QNACategory } from './QNACategory';
 export { default as QNACategorySubMenu } from './QNACategorySubMenu';
 export { default as AnswersDataContainer } from './AnswersDataContainer';
+export { default as QuestionsAndAnswers } from './QuestionsAndAnswers';
