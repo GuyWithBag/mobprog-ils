@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiDownArrow } from 'react-icons/bi'
 import Link from 'next/link'
 
 const CustomerServiceHotQuestion = ( {text} ) => {

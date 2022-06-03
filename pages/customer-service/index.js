@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { CustomerServiceCategories, CustomerServiceHotQuestion } from '../../components'
 import { AiOutlineShop } from 'react-icons/ai'
 
