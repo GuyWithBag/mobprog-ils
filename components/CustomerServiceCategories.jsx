@@ -1,5 +1,5 @@
 import React from 'react'
-import AiOutlineShop from 'react-icons/ai'
+import {AiOutlineShop} from 'react-icons/ai'
 import Link from 'next/link'
 
 const CustomerServiceCategories = ( {icon = <AiOutlineShop />, text = 'lorem ipsum'} ) => {

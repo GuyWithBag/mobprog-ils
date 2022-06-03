@@ -3,7 +3,6 @@ import Link from 'next/link';
 import * as AiIcons from 'react-icons/ai'
 
 const Sidebar = ( active ) => {
-    alert(active)
   return (
     <nav className={active}>
         <ul className='sidenav-menu-items'>
