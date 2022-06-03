@@ -9,9 +9,15 @@ export const StateContext = ({ children }) => {
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
+  const [currentAnswersID, setCurrentAnswersID] = useState(0);
 
   let foundProduct;
   let index;
+
+  const setCurrentAnswersData = (answersID) => {
+    console.log(answersID);
+    setCurrentAnswersID((currentAns) => currentAns = answersID);
+  }
 
   const onAdd = (product, quantity) => {
     const checkProductInCart = cartItems.find((item) => item._id === product._id);
@@ -79,6 +85,9 @@ export const StateContext = ({ children }) => {
   return (
     <Context.Provider
       value={{
+        currentAnswersID,
+        setCurrentAnswersID,
+        setCurrentAnswersData,
         showCart,
         setShowCart,
         cartItems,

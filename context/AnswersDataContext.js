@@ -3,17 +3,18 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const Context = createContext();
 
 export const StateContext = ({ children }) => {
-  const [currentAnswers, setCurrentAnswers] = useState('')
-    
-  {/*function setCurrentAnswers() {
-    console.log('test')
-  }*/}
+  const [currentAnswers, setcurrentAnswers] = useState()
+
+  const setCurrentAnswersData = () => {
+    console.log('answersID');
+  }
 
   return (
     <Context.Provider
       value={{
-        currentAnswers, 
-        setCurrentAnswers
+        currentAnswers,
+        setcurrentAnswers,
+        setCurrentAnswersData
       }}
     >
       {children}

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AnswersDataContainer = ({ key = 'test1'}) => {
+const AnswersDataContainer = ({ content = <p>TEST123456</p>}) => {
   return (
     <div>
-        {key}
+        {content}
     </div>
   )
 }

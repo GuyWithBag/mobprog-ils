@@ -13,7 +13,7 @@ const QNACategory = ({ icon = <BiDownArrow />, category, subMenuList}) => {
           <BiDownArrow className={showSubMenu ? 'qna-category-down-arrow' : 'qna-category-down-arrow-toggled'}/>
       </button>
       <div className={showSubMenu ? 'qna-category-submenu' : 'display-none'}>
-          {subMenuList?.map((subMenu) => <QNACategorySubMenu key = {subMenu.text} text={subMenu.text} />)}
+          {subMenuList?.map((subMenu) => <QNACategorySubMenu key = {subMenu.text} text={subMenu.text} answersID={subMenu.answersID}/>)}
       </div>
     </>
   )

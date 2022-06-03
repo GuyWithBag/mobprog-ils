@@ -1,23 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
 import { QNACategory, AnswersDataContainer } from '../../components'
-import { useState } from 'react'
+import { useStateContext } from '../../context/StateContext';
 
 const questionsAndAnswers = () => {
-  const [currentAnswers, setCurrentAnswers] = useState('')
-  {/*function setCurrentAnswers( id = '') {
-    data = [
-      {
-        id : 'id1',
-        html : 
-        <>
-          test answers 1
-        </>
-      }
-    ]
-    currentAnswers = data
-    return currentAnswers
-  } */}
+  const { currentAnswersID } = useStateContext()
+
+  let answersData = [
+    {
+      name : 'Rewards',
+      html : 
+      <div>
+        Fuck yoausdoiausdioauwodiawu
+      </div>
+    },
+    {
+      name : 'Delivery',
+      html : 
+      <div>
+        Jk dont fuck me please
+      </div>
+    }
+  ]
 
   return (
     <div className='layout-inner-contents'>
@@ -35,15 +39,21 @@ const questionsAndAnswers = () => {
                 category='Shop with Us'
                 subMenuList={
                   [
-                    {'text': 'test1', 'content':'insert html'},
-                    {'text': 'test2', 'content':'insert html2'}
+                    {
+                      'answersID':0,
+                      'text': 'test1',
+                    },
+                    {
+                      'answersID':1,
+                      'text': 'test2',
+                    }
                   ]
                 }
               />
             </div>
           </div>
           <div className='qna-all-answers'>
-              <AnswersDataContainer />
+              <AnswersDataContainer content={answersData[currentAnswersID]['html']}/>
           </div>
         </div>
       </div>

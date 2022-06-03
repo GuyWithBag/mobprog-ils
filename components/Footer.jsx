@@ -37,7 +37,7 @@ const Footer = () => {
           <div className='footer-container-icons-container'>
             <h1>Our Social Medias</h1>
             <div className='footer-container-icons-container-contents'>
-              <a href='https://www.facebook.com/Celebrace.tgm/' target='_blank'>
+              <a href='https://www.facebook.com/Celebrace.tgm/' target='_blank' rel='noreferrer'>
                 <BsFacebook className='footer-icons'/>
               </a>
               <AiFillInstagram className='footer-icons'/>
