@@ -33,11 +33,11 @@ const customerService = () => {
           </div>
           <div className='customer-service-categories-blocks'>
             <CustomerServiceCategories
-              icon={<MdOutlineLocalShipping className='customer-service-block-icon-image'/>} 
+              icon={<MdOutlineLocalShipping className='customer-service-block-icon-image'/>}
               text='Orders and Shipping'
             />
             <CustomerServiceCategories
-              icon={<BsPeople className='customer-service-block-icon-image'/>} 
+              icon={<BsPeople className='customer-service-block-icon-image'/>}
               text='Sellers and Partners'
             />
             <CustomerServiceCategories

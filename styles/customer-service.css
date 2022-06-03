@@ -121,10 +121,6 @@
     padding: 15px 40px;
 }
 
-.customer-service-hot-questions {
-    color: black;
-}
-
 .customer-service-hot-question {
     color: black;
     cursor: pointer;
@@ -138,5 +134,11 @@
 .customer-service-hot-question-text {
     min-width: 95%;
     font-size: 25px;
+    padding: 5px;
 }
 
+.customer-service-hot-question-text:hover {
+    background-color: #ffc31f;
+    border-radius: 10px;
+    transition: 0.2s;
+}

@@ -39,11 +39,6 @@ const Sidebar = () => {
                         </Link>
                     </div>
                     <div className='sidenav-link'>
-                        <Link className='sidenav-link' href='/delivery' activeStyle>
-                            <a className='sidenav-link-text'>Delivery</a>
-                        </Link>
-                    </div>
-                    <div className='sidenav-link'>
                         <Link className='sidenav-link' href='/customer-service' activeStyle>
                             <a className='sidenav-link-text'>Customer Service</a>
                         </Link>

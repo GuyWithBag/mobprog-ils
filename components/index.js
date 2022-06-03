@@ -14,3 +14,5 @@ export { default as QNACategory } from './QNACategory';
 export { default as QNACategorySubMenu } from './QNACategorySubMenu';
 export { default as AnswersDataContainer } from './AnswersDataContainer';
 export { default as QuestionsAndAnswers } from './QuestionsAndAnswers';
+export { default as ContactSubmitted } from './ContactSubmitted';
+export { default as ContactForm } from './ContactForm';

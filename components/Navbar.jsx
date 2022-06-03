@@ -50,11 +50,6 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link className='nav-link' href='/delivery' activeStyle>
-                            <a>Delivery</a>
-                        </Link>
-                    </div>
-                    <div className='nav-link'>
                         <Link className='nav-link' href='/customer-service' activeStyle>
                             <a>Customer Service</a>
                         </Link>

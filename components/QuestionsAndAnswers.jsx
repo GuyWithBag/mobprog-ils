@@ -35,17 +35,40 @@ const QuestionsAndAnswers = () => {
             <div className='qna-categorys'>
             <div className='qna-all-categories'>
                 <QNACategory 
-                category='Shop with Us'
-                subMenuList={
+                  category='Shop with Us'
+                  subMenuList={
                     [
-                    {
-                        'answersID':0,
-                        'text': 'test1',
-                    },
-                    {
-                        'answersID':1,
-                        'text': 'test2',
-                    }
+                      {
+                          'answersID':0,
+                          'text': 'test1',
+                      },
+                      {
+                          'answersID':1,
+                          'text': 'test2',
+                      },
+                      {
+                          'answersID':2,
+                          'text': 'test3',
+                      },
+                      {
+                          'answersID':4,
+                          'text': 'test4',
+                      }
+                    ]
+                }
+                />
+                <QNACategory 
+                  category='Payments'
+                  subMenuList={
+                    [
+                      {
+                          'answersID':5,
+                          'text': 'test6',
+                      },
+                      {
+                          'answersID':6,
+                          'text': 'test7',
+                      }
                     ]
                 }
                 />

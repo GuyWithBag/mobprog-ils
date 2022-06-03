@@ -9,7 +9,6 @@ import '../styles/sidebar.css';
 import '../styles/about.css' ;
 import '../styles/contact.css';
 import '../styles/services.css';
-import '../styles/delivery.css';
 import '../styles/customer-service.css';
 import '../styles/questions-and-answers.css';
 
