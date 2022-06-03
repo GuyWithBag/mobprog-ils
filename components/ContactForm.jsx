@@ -6,10 +6,10 @@ import { useState } from 'react'
 import { ContactSubmitted } from './'
 
 const Contact = () => {
-   const [ showContactFormSubmitted, setShowContactFormSubmitted ] = useState(false);
+   {/*const [ showContactFormSubmitted, setShowContactFormSubmitted ] = useState(false);{*/}
    return (
       <>
-         <ContactSubmitted className={ showContactFormSubmitted ? 'display-block' : 'display-none' }/>
+         {/*<ContactSubmitted className={ showContactFormSubmitted ? 'display-block' : 'display-none' }/>*/}
          <div className='container'>
             <div className='contact-container'>
                <div className='contact-information'>
