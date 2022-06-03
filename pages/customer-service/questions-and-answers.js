@@ -1,8 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
-import { QNACategory } from '../../components'
+import { QNACategory, AnswersDataContainer } from '../../components'
+import { useState } from 'react'
 
 const questionsAndAnswers = () => {
+  const [currentAnswers, setCurrentAnswers] = useState('')
+  {/*function setCurrentAnswers( id = '') {
+    data = [
+      {
+        id : 'id1',
+        html : 
+        <>
+          test answers 1
+        </>
+      }
+    ]
+    currentAnswers = data
+    return currentAnswers
+  } */}
+
   return (
     <div className='layout-inner-contents'>
       <div className='qna'>
@@ -27,7 +43,7 @@ const questionsAndAnswers = () => {
             </div>
           </div>
           <div className='qna-all-answers'>
-
+              <AnswersDataContainer />
           </div>
         </div>
       </div>

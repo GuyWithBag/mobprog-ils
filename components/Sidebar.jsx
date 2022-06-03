@@ -11,33 +11,33 @@ const Sidebar = ( active ) => {
                     <AiIcons.AiOutlineClose/>
                 </Link>
             </li>
-            <div className="nav-link">
+            <div className='nav-link'>
                 <Link href='/' activestyle>
                     <a>Home</a>
                 </Link>
             </div>
-            <div className="nav-link">
+            <div className='nav-link'>
                 <Link href='/about' activestyle>
                     <a>About</a>
                 </Link>
             </div>
-            <div className="nav-link">
-                <Link className="nav-link" href='/services' activestyle>
+            <div className='nav-link'>
+                <Link className='nav-link' href='/services' activestyle>
                     <a>Services</a>
                 </Link>
             </div>
-            <div className="nav-link">
-                <Link className="nav-link" href='/delivery' activeStyle>
+            <div className='nav-link'>
+                <Link className='nav-link' href='/delivery' activeStyle>
                     <a>Delivery</a>
                 </Link>
             </div>
-            <div className="nav-link">
-                <Link className="nav-link" href='/customer-service' activeStyle>
+            <div className='nav-link'>
+                <Link className='nav-link' href='/customer-service' activeStyle>
                     <a>Customer Service</a>
                 </Link>
             </div>
-            <div className="nav-link">
-                <Link className="nav-link" href='/contact' activeStyle>
+            <div className='nav-link'>
+                <Link className='nav-link' href='/contact' activeStyle>
                     <a>Contact</a>
                 </Link>
             </div>

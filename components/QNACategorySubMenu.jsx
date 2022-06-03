@@ -1,8 +1,11 @@
 import React from 'react'
+import { useStateContext } from '../context/AnswersDataContext';
 
-const QNACategorySubMenu = ({key, text, changePage}) => {
+const QNACategorySubMenu = ({key, text, answersID}) => {
+  const {currentAnswers, setCurrentAnswers} = useStateContext(answersID)
+
   return (
-    <button className='qna-category-submenu-block'>
+    <button onClick={() => setCurrentAnswers(answersID)} className='qna-category-submenu-block'>
         {text}
     </button>
   )

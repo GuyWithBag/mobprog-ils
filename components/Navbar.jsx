@@ -28,9 +28,9 @@ const Navbar = () => {
                     <Link href='/'>
                         <a>
                             <Image 
-                            src={'/static/assets/images/designs/celebrace_logo.png'}
-                            width='200px'
-                            height='96px'
+                                src={'/static/assets/images/designs/celebrace_logo.png'}
+                                width='200px'
+                                height='96px'
                             />
                         </a>
                     </Link>

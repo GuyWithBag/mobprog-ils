@@ -23,16 +23,18 @@
   height: 65px;
   cursor: pointer;
   border-radius: 7px;
+  transition: all 0.2s ease-in-out;
 }
 
-.nav-link:active{
-    background-color: #b10058;
-    color: white;
+.nav-link:focus{
+  background-color: #bf1269;
+  color: white;
+  
 }
 
 .nav-link:hover{
-    background-color: #FF007E;
-    color: white;
+  background-color: #FF007E;
+  color: white;
 }
 
 .fa-bars {
@@ -66,7 +68,7 @@
 
 .nav-btn-link:hover{
     transition: ai 0.2s ease-in-out;
-    background-color: #b10058;
+    background-color: #FF007E;
     color: white;
 }
 

@@ -12,3 +12,5 @@ export { default as CustomerServiceCategories } from './CustomerServiceCategorie
 export { default as CustomerServiceHotQuestion } from './CustomerServiceHotQuestion';
 export { default as QNACategory } from './QNACategory';
 export { default as QNACategorySubMenu } from './QNACategorySubMenu';
+export { default as AnswersData } from './AnswersData';
+export { default as AnswersDataContainer } from './AnswersDataContainer';

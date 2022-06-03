@@ -3,7 +3,7 @@ import { BiDownArrow } from 'react-icons/bi'
 import { QNACategorySubMenu } from './'
 import { useState } from 'react';
 
-const QNACategory = ({ icon = <BiDownArrow />, category, subMenuList }) => {
+const QNACategory = ({ icon = <BiDownArrow />, category, subMenuList}) => {
   const [showSubMenu, setShowSubMenu] = useState(false);
   return (
     <>

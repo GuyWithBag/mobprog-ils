@@ -46,10 +46,26 @@
     align-items: center;
     border-style: none;
     cursor: pointer;
+    transition: 0.1s;
+}
+
+.customer-service-block:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.1s;
+}
+
+.customer-service-block:hover .customer-service-block-icon {
+    background-color: #FF007E;
+    transition: 0.1s;
+}
+
+.customer-service-block:hover .customer-service-block-icon-image {
+    color: rgb(219, 219, 219);
+    width: 36px;
+    height: 36px;
 }
 
 .customer-service-block-icon {
-    background-color: #ffc31f;
     border-radius: 500px;
     margin-right: 5px;
     min-width: 60px;
@@ -62,8 +78,10 @@
 
 .customer-service-block-icon-image {
     color: #FF007E;
-    min-width: 50px;
-    min-height: 50px;
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
 }
 
 .customer-service-block-image {

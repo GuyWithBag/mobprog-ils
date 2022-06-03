@@ -1,5 +1,5 @@
 
-const answersData = () => {
+const AnswersData = ( ) => {
   return (
     <>
         <div>FUCK ME IN THE ASS</div>
@@ -8,4 +8,4 @@ const answersData = () => {
   )
 }
 
-export default answersData
+export default AnswersData

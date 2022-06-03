@@ -1,6 +1,9 @@
 import React from 'react'
 import { CustomerServiceCategories, CustomerServiceHotQuestion } from '../../components'
 import { AiOutlineShop } from 'react-icons/ai'
+import { MdOutlinePayments, MdOutlineLocalShipping } from 'react-icons/md'
+import { HiOutlineReceiptRefund, HiOutlineNewspaper } from 'react-icons/hi'
+import { BsPeople } from 'react-icons/bs'
 
 const customerService = () => {
   return (
@@ -20,26 +23,26 @@ const customerService = () => {
               text='Shop with Us'
             />
             <CustomerServiceCategories
-              icon={<AiOutlineShop className='customer-service-block-icon-image'/>} 
-              text='Shop with Us'
+              icon={<MdOutlinePayments className='customer-service-block-icon-image'/>} 
+              text='Payments'
             />
             <CustomerServiceCategories
-              icon={<AiOutlineShop className='customer-service-block-icon-image'/>} 
-              text='Shop with Us'
+              icon={<HiOutlineReceiptRefund className='customer-service-block-icon-image'/>} 
+              text='Returns & Refunds'
             />
           </div>
           <div className='customer-service-categories-blocks'>
             <CustomerServiceCategories
-              icon={<AiOutlineShop className='customer-service-block-icon-image'/>} 
-              text='Shop with Us'
+              icon={<MdOutlineLocalShipping className='customer-service-block-icon-image'/>} 
+              text='Orders and Shipping'
             />
             <CustomerServiceCategories
-              icon={<AiOutlineShop className='customer-service-block-icon-image'/>} 
-              text='Shop with Us'
+              icon={<BsPeople className='customer-service-block-icon-image'/>} 
+              text='Sellers and Partners'
             />
             <CustomerServiceCategories
-              icon={<AiOutlineShop className='customer-service-block-icon-image'/>} 
-              text='Shop with Us'
+              icon={<HiOutlineNewspaper className='customer-service-block-icon-image'/>} 
+              text='General'
             />
           </div>
         </div>
