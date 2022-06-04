@@ -33,7 +33,19 @@ const QuestionsAndAnswers = () => {
       <div>
         Jk dont fuck me please
       </div>
-    }
+    },
+    
+    {
+      Key : '9',
+      html: 
+      <div>After the order is completed, you will receive an email confirmation that includes your order number. </div>
+     },
+     {
+      Key : 'this is answerID 1'
+      html: 
+      <div>put html stuff here</div>
+      },
+    
   ]
 
   return (
@@ -57,7 +69,7 @@ const QuestionsAndAnswers = () => {
                       },
                       {
                           'answersID':1,
-                          'text': 'test2',
+                          'text': 'BBB',
                       },
                       {
                           'answersID':2,
@@ -106,7 +118,7 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':9,
-                          'text': 'test10',
+                          'text': 'HOW WILL I KNOW IF MY ORDER IS CONFIRMED AND READY FOR PROCESSING?',
                       },
                       {
                           'answersID':10,
