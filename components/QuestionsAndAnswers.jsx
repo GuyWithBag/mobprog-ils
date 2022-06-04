@@ -72,6 +72,66 @@ const QuestionsAndAnswers = () => {
                     ]
                 }
                 />
+                <QNACategory 
+                  category='Return and Refunds'
+                  subMenuList={
+                    [
+                      {
+                          'answersID':7,
+                          'text': 'test8',
+                      },
+                      {
+                          'answersID':8,
+                          'text': 'test9',
+                      }
+                    ]
+                }
+                />
+                 <QNACategory 
+                  category='Orders and Shipping'
+                  subMenuList={
+                    [
+                      {
+                          'answersID':9,
+                          'text': 'test10',
+                      },
+                      {
+                          'answersID':10,
+                          'text': 'test11',
+                      }
+                    ]
+                }
+                />
+                 <QNACategory 
+                  category='Sellers and Partners'
+                  subMenuList={
+                    [
+                      {
+                          'answersID':11,
+                          'text': 'test12',
+                      },
+                      {
+                          'answersID':12,
+                          'text': 'test13',
+                      }
+                    ]
+                }
+                />
+                 <QNACategory 
+                  category='General'
+                  subMenuList={
+                    [
+                      {
+                          'answersID':13,
+                          'text': 'test14',
+                      },
+                      {
+                          'answersID':15,
+                          'text': 'test16',
+                      }
+                    ]
+                }
+                />
             </div>
             </div>
             <div className='qna-all-answers'>
