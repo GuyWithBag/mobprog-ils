@@ -40,7 +40,7 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':0,
-                          'text': 'test1',
+                          'text': 'HOW TO ORDER?',
                       },
                       {
                           'answersID':1,
