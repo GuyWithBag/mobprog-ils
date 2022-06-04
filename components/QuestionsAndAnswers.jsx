@@ -157,7 +157,7 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':16,
-                          'text': 'Is Your Flower Fresh?',
+                          'text': 'Are Your Flower Fresh?',
                       }
                     ]
                 }
