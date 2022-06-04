@@ -36,7 +36,7 @@ const QuestionsAndAnswers = () => {
     },
     
     {
-      Key : '4',
+      Key : '3',
       html: 
       <div>After the order is completed, you will receive an email confirmation that includes your order number. </div>
      },
