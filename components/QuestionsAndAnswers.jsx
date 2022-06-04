@@ -11,7 +11,20 @@ const QuestionsAndAnswers = () => {
       name : 'Rewards',
       html : 
       <div>
-        Fuck yoausdoiausdioauwodiawu
+        <ol>
+          <li>Browse the products and its descriptions.  </li>
+          <li>Choose the products you want. </li>
+          <li>Choose the add-ons you want to come with it. </li>
+          <li>Select your preferred delivery date and timeframe. </li>
+          <li>Add to cart </li>
+          <li>Proceed to checkout. </li>
+          <li>Fill in all the necessary shipping, message and instruction details. </li>
+          <li>Go to payment. </li>
+          <li>Select payment method. </li>
+          <li>Click on complete order.</li>
+        </ol>
+           <p>Once the order is completed, you will be redirected to the order confirmation page and you will receive an email containing your order names and number. 
+           </p>
       </div>
     },
     {
