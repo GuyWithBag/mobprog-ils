@@ -36,7 +36,7 @@ const QuestionsAndAnswers = () => {
     },
     
     {
-      Key : '9',
+      Key : '2',
       html: 
       <div>After the order is completed, you will receive an email confirmation that includes your order number. </div>
      },
@@ -76,7 +76,7 @@ const QuestionsAndAnswers = () => {
                           'text': 'test3',
                       },
                       {
-                          'answersID':4,
+                          'answersID':3,
                           'text': 'test4',
                       }
                     ]
@@ -87,12 +87,12 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':5,
-                          'text': 'test6',
+                          'answersID':4,
+                          'text': 'test5',
                       },
                       {
-                          'answersID':6,
-                          'text': 'test7',
+                          'answersID':5,
+                          'text': 'test6',
                       }
                     ]
                 }
@@ -102,12 +102,12 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':7,
-                          'text': 'test8',
+                          'answersID':6,
+                          'text': 'test7',
                       },
                       {
-                          'answersID':8,
-                          'text': 'test9',
+                          'answersID':7,
+                          'text': 'test 8',
                       }
                     ]
                 }
@@ -117,11 +117,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':9,
+                          'answersID':8,
                           'text': 'HOW WILL I KNOW IF MY ORDER IS CONFIRMED AND READY FOR PROCESSING?',
                       },
                       {
-                          'answersID':10,
+                          'answersID':9,
                           'text': 'test11',
                       }
                     ]
@@ -132,11 +132,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':11,
+                          'answersID':10,
                           'text': 'test12',
                       },
                       {
-                          'answersID':12,
+                          'answersID':11,
                           'text': 'test13',
                       }
                     ]
@@ -147,11 +147,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':13,
+                          'answersID':12,
                           'text': 'test14',
                       },
                       {
-                          'answersID':15,
+                          'answersID':13,
                           'text': 'test16',
                       }
                     ]
