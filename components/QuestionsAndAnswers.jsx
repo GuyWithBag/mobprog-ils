@@ -157,11 +157,7 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':16,
-                          'text': 'test12',
-                      },
-                      {
-                          'answersID':17,
-                          'text': 'test13',
+                          'text': 'Is Your Flower Fresh?',
                       }
                     ]
                 }
@@ -171,11 +167,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':13,
+                          'answersID':17,
                           'text': 'Terms & Condition',
                       },
                       {
-                          'answersID':14,
+                          'answersID':18,
                           'text': 'Privacy Policy',
                       }
                     ]
