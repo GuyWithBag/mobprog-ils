@@ -65,19 +65,19 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':0,
-                          'text': 'HOW TO ORDER?',
+                          'text': 'How to Order?',
                       },
                       {
                           'answersID':1,
-                          'text': 'BBB',
+                          'text': 'Where is Your Store Location',
                       },
                       {
                           'answersID':2,
-                          'text': 'test3',
+                          'text': 'How Can I Take Care of My Flowers ',
                       },
                       {
                           'answersID':3,
-                          'text': 'test4',
+                          'text': 'How Long do Flowers Usally Last?',
                       }
                     ]
                 }
@@ -88,12 +88,16 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':4,
-                          'text': 'test5',
+                          'text': 'How to Pay?',
                       },
                       {
                           'answersID':5,
-                          'text': 'test6',
-                      }
+                          'text': 'Can You Customize an Order?',
+                      },
+                      {
+                        'answersID':14,
+                        'text': 'Can You Make The Sender Annonymous?',
+                    },
                     ]
                 }
                 />
@@ -103,12 +107,16 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':6,
-                          'text': 'test7',
+                          'text': 'How Can I Make Changes With My Orders?',
                       },
                       {
                           'answersID':7,
-                          'text': 'test 8',
-                      }
+                          'text': 'How do I Cancel My Order ',
+                      },
+                      {
+                        'answersID':7,
+                        'text': 'How can I Return and Exchange my Order?',
+                    }
                     ]
                 }
                 />
@@ -118,12 +126,28 @@ const QuestionsAndAnswers = () => {
                     [
                       {
                           'answersID':8,
-                          'text': 'HOW WILL I KNOW IF MY ORDER IS CONFIRMED AND READY FOR PROCESSING?',
+                          'text': 'How Will I Know if My Order is Confirmed and Ready for Processing?',
                       },
                       {
                           'answersID':9,
-                          'text': 'test11',
-                      }
+                          'text': 'How Much is Your Shipping Fee ? ',
+                      },
+                      {
+                        'answersID':10,
+                        'text': 'Can I Pick-up My Order in Your Store? ',
+                    },
+                    {
+                      'answersID':11,
+                      'text': 'Do You Accept Advance Orders? ',
+                  },
+                  {
+                    'answersID':12,
+                    'text': 'Can we Make The Delivery Into a Surprise? ',
+                },
+                {
+                  'answersID':14,
+                  'text': 'How do I Add Special Instructions to My Order?',
+              }
                     ]
                 }
                 />
@@ -132,11 +156,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':10,
+                          'answersID':11,
                           'text': 'test12',
                       },
                       {
-                          'answersID':11,
+                          'answersID':12,
                           'text': 'test13',
                       }
                     ]
@@ -147,12 +171,12 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':12,
-                          'text': 'test14',
+                          'answersID':13,
+                          'text': 'Terms & Condition',
                       },
                       {
-                          'answersID':13,
-                          'text': 'test16',
+                          'answersID':14,
+                          'text': 'Privacy Policy',
                       }
                     ]
                 }
