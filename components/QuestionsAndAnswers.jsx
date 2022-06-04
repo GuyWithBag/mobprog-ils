@@ -95,7 +95,7 @@ const QuestionsAndAnswers = () => {
                           'text': 'Can You Customize an Order?',
                       },
                       {
-                        'answersID':14,
+                        'answersID':6,
                         'text': 'Can You Make The Sender Annonymous?',
                     },
                     ]
@@ -106,15 +106,15 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':6,
+                          'answersID':7,
                           'text': 'How Can I Make Changes With My Orders?',
                       },
                       {
-                          'answersID':7,
+                          'answersID':8,
                           'text': 'How do I Cancel My Order ',
                       },
                       {
-                        'answersID':7,
+                        'answersID':9,
                         'text': 'How can I Return and Exchange my Order?',
                     }
                     ]
@@ -125,27 +125,27 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':8,
+                          'answersID':10,
                           'text': 'How Will I Know if My Order is Confirmed and Ready for Processing?',
                       },
                       {
-                          'answersID':9,
+                          'answersID':11,
                           'text': 'How Much is Your Shipping Fee ? ',
                       },
                       {
-                        'answersID':10,
+                        'answersID':12,
                         'text': 'Can I Pick-up My Order in Your Store? ',
                     },
                     {
-                      'answersID':11,
+                      'answersID':13,
                       'text': 'Do You Accept Advance Orders? ',
                   },
                   {
-                    'answersID':12,
+                    'answersID':14,
                     'text': 'Can we Make The Delivery Into a Surprise? ',
                 },
                 {
-                  'answersID':14,
+                  'answersID':15,
                   'text': 'How do I Add Special Instructions to My Order?',
               }
                     ]
@@ -156,11 +156,11 @@ const QuestionsAndAnswers = () => {
                   subMenuList={
                     [
                       {
-                          'answersID':11,
+                          'answersID':16,
                           'text': 'test12',
                       },
                       {
-                          'answersID':12,
+                          'answersID':17,
                           'text': 'test13',
                       }
                     ]
