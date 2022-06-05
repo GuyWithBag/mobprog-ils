@@ -6,6 +6,7 @@
 
 .qna-contents {
     display: flex;
+    gap: 10px;
 }
 
 .qna-all-categories {
@@ -15,7 +16,7 @@
     align-items: flex-start;
     padding: 25px 25px;
     background-color: white;
-    min-width: 270px;
+    min-width: 200px;
     min-height: 500px;
 }
 
@@ -64,7 +65,7 @@
     gap: 4px;
     transition: 0.5s;
     overflow: hidden;
-    max-height: 200px;
+    max-height: 220px;
     height: auto;
 }
 
@@ -77,9 +78,10 @@
     border-style: none;
     background-color: transparent;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
     padding: 2px;
     border-radius: 3px;
+    text-align: left;
 }
 
 .qna-category-submenu-block:hover{
@@ -88,11 +90,67 @@
 
 .qna-all-answers {
     width: 100%;
-    padding: 40px;
+    padding: 50px 90px;
     min-height: 500px;
+    background-color: white;
 }
 
-.qna-answer {
+.qna-answers {
     color: black;
-    font-size: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+
+.qna-answers h1 {
+    font-size: 50px;
+}
+
+.qna-answers h2 {
+    font-size: 23px;
+}
+
+.qna-answers p {
+    font-size: 18px;
+}
+
+.how-to-order-list {
+    padding-left: 30px;
+}
+
+@media screen and (max-width:991px) {
+    .qna-all-answers {
+        padding: 20px 35px;
+    }
+    .qna-answers h1 {
+        font-size: 30px;
+    }
+    
+    .qna-answers h2 {
+        font-size: 19px;
+    }
+    
+    .qna-answers p {
+        font-size: 17px;
+    }
+    
+    .how-to-order-list {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    
+    .qna-all-categories {
+        padding: 16px;
+        max-width: 170px;
+    }
+
+    .qna-category-text {
+        font-size: 17px;
+    }
+
+    .qna-category-submenu-block {
+        font-size: 14px;
+    }
+}
+

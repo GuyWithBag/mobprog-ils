@@ -35,6 +35,9 @@
     display: flex;
     margin-top: 10px;
     filter: drop-shadow(5px 5px 5px #afa984);
+    min-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
 }
 
 .service-block-icon {
@@ -53,6 +56,7 @@
 
 .service-block-image {
     min-width: 200px;
+    min-height: 200px;
     background-color: white;
     border-radius: 500px;
     margin-right: 5px;
@@ -73,4 +77,10 @@
 .service-block-content p {
     word-wrap: break-word;
     font-size: 23px;
+}
+
+@media screen and (max-width:991px) {
+    .service-block-content p {
+        font-size: 17px;
+    }
 }

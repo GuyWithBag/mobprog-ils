@@ -10,12 +10,12 @@ export const StateContext = ({ children }) => {
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
   const [currentAnswersID, setCurrentAnswersID] = useState(0);
+  const [showContactSubmitted, setShowContactSubmitted] = useState(false)
 
   let foundProduct;
   let index;
 
   const setCurrentAnswersData = (answersID) => {
-    console.log(answersID);
     setCurrentAnswersID((currentAns) => currentAns = answersID);
   }
 
@@ -102,6 +102,8 @@ export const StateContext = ({ children }) => {
         setCartItems,
         setTotalPrice,
         setTotalQuantities, 
+        showContactSubmitted, 
+        setShowContactSubmitted
       }}
     >
       {children}

@@ -49,9 +49,11 @@ const customerService = () => {
         <div className='customer-service-hot-questions'>
           <h1>Hot Questions</h1>
           <div className='customer-service-all-hot-questions'>
-            <CustomerServiceHotQuestion text='This is a very cool and long informative hot-question?'/>
-            <CustomerServiceHotQuestion text='This is a very cool and long informative hot-question?'/>
-            <CustomerServiceHotQuestion text='This is a very cool and long informative hot-question?'/>
+            <CustomerServiceHotQuestion text='How to pay?'/>
+            <CustomerServiceHotQuestion text='Where is your store location?'/>
+            <CustomerServiceHotQuestion text='Can we make the delivery into a surpise?'/>
+            <CustomerServiceHotQuestion text='How will i know if my order is confirmed and ready for processing?'/>
+            <CustomerServiceHotQuestion text='Can you make the sender Annonymous?'/>
           </div>
         </div>
       </div>
