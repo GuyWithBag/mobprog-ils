@@ -375,17 +375,6 @@ const QuestionsAndAnswers = () => {
                 }
               />
                 <QNACategory 
-                category='Sellers and Partners'
-                subMenuList={
-                  [
-                    {
-                      'answersID':16,
-                      'text': 'Are Your Flower Fresh?',
-                    }
-                  ]
-                }
-              />
-                <QNACategory 
                 category='General'
                 subMenuList={
                   [

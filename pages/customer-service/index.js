@@ -37,10 +37,6 @@ const customerService = () => {
               text='Orders and Shipping'
             />
             <CustomerServiceCategories
-              icon={<BsPeople className='customer-service-block-icon-image'/>}
-              text='Sellers and Partners'
-            />
-            <CustomerServiceCategories
               icon={<HiOutlineNewspaper className='customer-service-block-icon-image'/>} 
               text='General'
             />
