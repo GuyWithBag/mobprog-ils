@@ -330,7 +330,7 @@ const QuestionsAndAnswers = () => {
                   [
                     {
                       'answersID':7,
-                      'text': 'How Can I Make Changes With My Orders?',
+                      'text': 'How Can I Make Changes with my Orders?',
                     },
                     {
                       'answersID':8,

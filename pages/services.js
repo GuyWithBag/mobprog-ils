@@ -18,7 +18,8 @@ const services = () => {
       <div className='services-service-blocks'>
         <ServiceBlock 
           image='/static/assets/images/flowers/products.png' 
-          text='It would be more extraordinary if the present you would give to your love ones fit their personality, favorites, loves and more. Celebrace got your back, because Celebrace can customize your desired, design, color, subject and more.'
+          text='It would be more extraordinary if the present you would give to your loved ones fit their personality, favorites, values, etc. Celebrace got your back because Celebrace can customize your desired design, color, gifts, and more.
+          '
         />
         <div className='service-block'>
           <div className='service-block-icon'>
@@ -26,13 +27,13 @@ const services = () => {
           </div>
           <div className='service-block-content'>
             <p>
-              It would be more convenient to customers if there is a door-to-door delivery. Celebrace loves you and has a free door-to-door delivery for our beloved customers.
+            For more convenience, Celebrace offers door-to-door delivery for their beloved customers. Delivery fee depends on the customer's given location.
             </p>
           </div>
         </div>
         <ServiceBlock 
           image='/static/assets/images/flowers/1-dozen Pink Roses bouquet.png' 
-          text='As technology dominate the world, people always use gadgets. For easy purchasing, Celebrace has a website. In order to purchase customer as easy as 1, 2, 3 tap. Further, Celebrace is available on Facebook for quality checking and online booking.'
+          text='As technology dominates the world, people always use gadgets. For easy purchasing, Celebrace has a website. It is also available on Facebook for quality checking and online booking.'
         />
       </div>
     </div>
