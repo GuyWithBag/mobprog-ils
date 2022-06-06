@@ -26,7 +26,7 @@ const services = () => {
           </div>
           <div className='service-block-content'>
             <p>
-            For more convenience, Celebrace offers door-to-door delivery for their beloved customers. Delivery fee depends on the customer`&apos; given location.
+            For more convenience, Celebrace offers door-to-door delivery for their beloved customers. Delivery fee depends on the customer`&apos;s given location.
             </p>
           </div>
         </div>
