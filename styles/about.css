@@ -12,13 +12,16 @@
   display: flex;
   flex: 1 1 10rem;
   margin-left: 7px;
-  background-image: url(/static/assets/images/designs/shadow.png);
-  background-repeat: no-repeat;
-  background-position: -20px 50px;
-  background-size: 500px 400px;
   padding-bottom: 40px;
   align-items: center;
   justify-content: center;
+  width: 530px;
+  filter: drop-shadow(5px 5px 5px #cfc05e);
+  border-radius: 50px;
+}
+
+.about-image Image {
+  border-radius: 50px;
 }
 
 .about-content {

@@ -7,6 +7,10 @@ body, * {
   box-sizing: border-box;
 }
 
+.html {
+  height: -webkit-fill-available;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -37,6 +41,7 @@ width: 100%;
   background-size: 1000px;
   box-sizing: border-box;
   margin: 0;
+  height: -webkit-fill-available;
 }
 
 .layout-inner-contents{

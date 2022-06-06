@@ -7,7 +7,22 @@ import { ContactSubmitted } from './'
 
 const Contact = () => {
    const { showContactSubmitted, setShowContactSubmitted } = useStateContext();
-
+   async function handleOnSubmit(e) {
+      alert('naosdasdasdsad')
+      e.preventDefault();
+  
+      const formData = {};
+  
+      Array.from(e.currentTarget.elements).forEach(field => {
+        if ( !field.name ) return;
+        formData[field.name] = field.value;
+      });
+  
+      await fetch('/api/mail', {
+        method: 'POST',
+        body: JSON.stringify(formData)
+      });
+    }
    return (
       <>
          <ContactSubmitted className={ showContactSubmitted ? 'display-block' : 'display-none' }/>
@@ -28,7 +43,7 @@ const Contact = () => {
                      <p className='contact-information-titles'>
                         <span><AiFillPhone className='contact-icon'/></span>Let&apos;s Talk
                      </p>
-                     <p className='contact-information-details'> 09483182462 - <b>SMART</b> </p>
+                     <p className='contact-information-details'> 09483182462 - <label>SMART</label> </p>
                   </div>
                   <div>
                      <p className='contact-information-titles'>
@@ -40,17 +55,18 @@ const Contact = () => {
                <div className='contact-information-inputs'>
                   <div className='contact-information-inputs-contents'>
                      <h2>Contact Us</h2>
-
-                     <b className='contact-information-inputs-titles'>Name *</b>
-                     <input id='txt_name' type='text' Required='required'/>
-                     <b className='contact-information-inputs-titles'>Email *</b>
-                     <input id='txt_email' type='text' Required='required'/>
-                     <b className='contact-information-inputs-titles'>Phone *</b>
-                     <input id='txt_phone' type='text' Required='required'/>
-                     <b className='contact-information-inputs-titles'>Subject *</b>
-                     <input id='txt_subject' type='text' Required='required'/>
-                     <b className='contact-information-inputs-titles'>Message *</b>
-                     <textarea id='txt_message' rows='4' cols='20' Required='required' ></textarea>
+                     <form className='contact-information-inputs-contents-form' method='post' onSubmit={handleOnSubmit}>
+                        <label htmlFor='name' className='contact-information-inputs-titles'>Name *</label>
+                        <input id='txt_name' type='text' name='name' required='required'/>
+                        <label htmlFor='email' className='contact-information-inputs-titles'>Email *</label>
+                        <input id='txt_email' type='email' name='email' required='required'/>
+                        <label htmlFor='phone_number' className='contact-information-inputs-titles'>Phone Number *</label>
+                        <input id='txt_phone' type='text' name='phone_number' required='required'/>
+                        <label htmlFor='subject' className='contact-information-inputs-titles'>Subject *</label>
+                        <input id='txt_subject' type='text' name='subject' required='required'/>
+                        <label htmlFor='message' className='contact-information-inputs-titles'>Message *</label>
+                        <textarea id='txt_message' rows='4' cols='20' name='message' required='required' ></textarea>
+                     </form>
                      <button onClick={() => setShowContactSubmitted((o) => !o)}>Submit</button>
                   </div>
                </div>
