@@ -9,7 +9,7 @@ const About = () => {
             <h1 className='about-heading'>Why Choose Us?</h1>
             <div className='about-row'>
                 <div className='about-image'>
-                    <Image src='/static/assets/images/designs/about_image.jpg' alt='Flower product'
+                    <Image src='/static/assets/images/designs/about_image.JPG' alt='about-image'
                     width='530px'
                     height='380px'
                     />
